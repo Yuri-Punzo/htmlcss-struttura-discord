@@ -45,6 +45,10 @@ header {
     width: calc((100% / 12) * 7);
 }
 
+.col-12 {
+    width: calc((100% / 12) * 12);
+}
+
 .gray-background {
     background-color: #d3d3d3;
 }
@@ -123,4 +127,38 @@ a {
     max-width: 1200px;
     border: 1px black dashed;
     text-align: center;
+}
+
+footer {
+    background-color: #23272a;
+}
+
+.salmone {
+    height: 500px;
+    background-color: #f08080;
+    margin: 10px 0px 25px;
+    border: 1px dashed black;
+}
+
+.azzurro {
+    height: 500px;
+    background-color: #20b2aa;
+    margin: 10px 0px 25px;
+    border: 1px dashed white;
+}
+
+.footer-box {
+    height: 80px;
+    max-width: 1200px;
+    background-color: #7fffd4;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer-logo,
+.registrati {
+    background-color: #ffb6c1;
+    padding: 0.5rem;
+    border: 1px dashed black;
 }
